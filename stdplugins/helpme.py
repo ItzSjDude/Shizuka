@@ -16,11 +16,11 @@ async def _(event):
     if Config.USER is not None:
         user = f"\n```User: {Config.USER}```"
     else:
-        user = "NoBiTa"
+        user = "NOBITA"
     uname = platform.uname()
     memory = psutil.virtual_memory()
     specs = f"```System: {uname.system}```\n```Release: {uname.release}```\n```Version: {uname.version}```\n```Processor: {uname.processor}```\n```Memory [RAM]: {get_size(memory.total)}```"
-    help_string = f"`🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀\n`**General Account Analysis:**\n```🔧Build: {BUILD}```\nUser: {str(user)}\n```By: NOBITA```\n\n**⚙️System Specifications:**\n{specs}\n```🐍Python {sys.version}```\n```💾Telethon {__version__}```\n[🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7ZwrEuMAiJ5wNktLBfF7lFOzAkfcWXTOnmzGPrE-bxB9GHqmaj6QwdqmZ3A&s=10)"    
+    help_string = f"`🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀\n`**General Account Analysis:**\n```🔧Build: {BUILD}```\nUser: {str(user)}\n```By: NOBITA```\n\n**⚙️System Specifications:**\n{specs}\n```🐍Python {sys.version}```\n```💾Telethon {__version__}```\n[🎀🎀🎀🎀🎀🎀🎀🎀🎀🎀]"    
     await event.reply(help_string + "\n\n")
     await event.delete()
 
