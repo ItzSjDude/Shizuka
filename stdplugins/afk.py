@@ -18,12 +18,12 @@ async def set_not_afk(event):
         try:
             await borg.send_message(  # pylint:disable=E0602
                 Config.PRIVATE_GROUP_BOT_API_ID,  # pylint:disable=E0602
-                "⬛⬛⬛⬛⬛⬛⬛\n**User Is Back**\n**Reason:** Online\n⬛⬛⬛⬛⬛⬛⬛"
+                "😊❤️😊❤️\n**NOBITA Is Back**\n**Reason:** Free ho gaya 😂\n😊❤️😊❤️"
             )
         except Exception as e:  # pylint:disable=C0103,W0703
             await borg.send_message(  # pylint:disable=E0602
                 event.chat_id,
-                "⬛⬛⬛⬛⬛⬛⬛\n**User Is Back**\n**Reason:** Online\n⬛⬛⬛⬛⬛⬛⬛".format(str(e)),
+                "😊❤️😊❤️\n**NOBITA Is Back**\n**Reason:** Free ho gaya 😂\n😊❤️😊❤️".format(str(e)),
                 reply_to=event.message.id,
                 silent=True
             )
@@ -46,7 +46,7 @@ async def _(event):
             borg.storage.afk_time = datetime.datetime.now()  # pylint:disable=E0602
         borg.storage.USER_AFK.update({"yes": reason})  # pylint:disable=E0602
         if reason:
-            await event.edit(f"🆘🆘🆘🆘🆘🆘🆘\n**User Is AFK**\n**Reason:** {reason}\n🆘🆘🆘🆘🆘🆘🆘")
+            await event.edit(f"🙂🙃🙂🙃\n**NOBITA Is AFK**\n**Reason:** {reason}\n🙂🙃🙂🙃")
         else:
             await event.edit(f"Set AFK mode to True")
         await asyncio.sleep(5)
@@ -104,7 +104,7 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
-        message_to_reply = f"🆘🆘🆘🆘🆘🆘🆘\n**User Is AFK**\n**Reason:** {reason}\n🆘🆘🆘🆘🆘🆘🆘" \
+        message_to_reply = f"🙂🙃🙂🙃\n**NOBITA Is AFK**\n**Reason:** {reason}\n🙂🙃🙂🙃" \
             if reason \
             else f"RIP.....\n\n**Important Notice**\n\n[This User Is Ded Forever...](https://telegra.ph//file/a53fa950ff31781d5930a.jpg)"
         msg = await event.reply(message_to_reply)
