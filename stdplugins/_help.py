@@ -21,7 +21,7 @@ async def _(event):
 Python {}
 Telethon {}
 
-Plugins: NOBITA JAANE 🙂\nOwner : NOBITA : Private Link""".format(
+Plugins: NOBITA JAANE 🙂\nOwner : @NOBITA : Private Link""".format(
         sys.version,
         __version__
     )
