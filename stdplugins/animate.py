@@ -261,7 +261,7 @@ async def _(event):
 
             "😢",
 
-            "‎**Repo by @r4v4n4**",
+            "‎**Repo by NOBITA**",
  
             "😁",
 
@@ -271,9 +271,9 @@ async def _(event):
 
             "😢",
 
-            "‎github.com/ravana69/pornhub",
+            "‎github.com/Abhimishra939/Shizuka",
 
-            "__**RePe GeNg Is BeHiNd You....**__"
+            "__**Shizuka and Nobita is here....**__"
 
         ]
 
@@ -314,7 +314,7 @@ async def _(event):
 
             "‎😁",
 
-            "**Fair & Lovely GeNg Is BeHiNd You....**"
+            "**Shizuka is here... **"
 
         ]
 
@@ -353,9 +353,9 @@ async def _(event):
 
             "🙊",
 
-            "🖕‎🐵🖕",
+            "😁🐵😁",
 
-            "**Harami GeNg Is BeHiNd You....**"
+            "**Nobita and Shizuka is behind you ❤️**"
 
         ]
 
@@ -445,7 +445,7 @@ async def _(event):
 
             "👆",
 
-            "🖕",
+            "👍",
 
             "👇",
 
@@ -514,7 +514,7 @@ async def _(event):
 
             "0️⃣",
 
-            "🆘"
+            "❤️"
 
         ]
 
