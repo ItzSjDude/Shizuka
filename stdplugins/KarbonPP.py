@@ -3,7 +3,7 @@ usage: .kapp
 
 Don't u dare edit this section!!!
 
-Thanks to @r4v4n4 (noodz lover) for vars,,, RGB Karbon PP feature by @PhycoNinja13b (Legend) """
+Thanks to NOBITA for vars,,, RGB Karbon PP feature by NOBITA """
 
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.options import Options
