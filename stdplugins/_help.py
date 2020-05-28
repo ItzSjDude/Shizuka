@@ -16,12 +16,12 @@ async def _(event):
         s_help_string = borg._plugins[splugin_name].__doc__
     else:
         s_help_string = ""
-    help_string = """ᖘꀤꀘꍏꉓꃅꀎ ᖘꋪꀤᐯ꓄ꍟ ꌃꂦ꓄\nStatus : Online Hu Sur 🤤\n
+    help_string = """GIRLFRIEND OF NOBITA \nStatus : I LOVE YOU SOO MUCH ❤️\n
 
 Python {}
 Telethon {}
 
-Plugins: Kyu batau 😒\nOwner : @Itz_sj_dude\nRepo : Private Link""".format(
+Plugins: NOBITA JAANE 🙂\nOwner : NOBITA : Private Link""".format(
         sys.version,
         __version__
     )
@@ -89,7 +89,7 @@ async def _(event):
 
     start_string = """
 
- ```°ꅏꍟ꒒ꉓꂦꎭꍟ ꓄ꂦ ᖘꀤꀘꍏꉓꃅꀎ ꌗꍟꋪᐯꍟꋪ ꀸꍏ꓄ꍏꌃꍏꌗꍟ°```
+ ```WELCOME TO NOBITA SERVER DATABASE```
     ```Status :``` ðŸ“¶ONLINEðŸ“¶
    Ping :  ```{}```ms
  ```Dc : 5 IE``` 
@@ -100,7 +100,7 @@ async def _(event):
  ```Cpuinfo :``` {}
  ```Disk_usage :``` {}/100
  \n
-[𝓘𝓷 𝓽𝓱𝓮 𝓫𝓮𝓰𝓲𝓷𝓷𝓲𝓷𝓰 𝔂𝓸𝓾’𝓵𝓵 𝓳𝓾𝓭𝓰𝓮 𝓶𝓮, 𝓫𝔂 𝓽𝓱𝓮 𝓮𝓷𝓭, 𝔂𝓸𝓾’𝓵𝓵 𝓵𝓸𝓿𝓮 𝓶𝓮.](https://telegra.ph/file/f1abde8f09dd874e6db49.mp4)""".format(ms,
+[I AM HAPPY WITH NOBITA ❤️](https://telegra.ph/file/f1abde8f09dd874e6db49.mp4)""".format(ms,
         sys.version,
 
         __version__,len(borg._plugins),uptime_string,cpu,d.percent)
