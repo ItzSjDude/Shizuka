@@ -7,13 +7,9 @@
 from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
 
-print("""Aa gaye Betichod string generate karne. 
-lodu use ==>> my.telegram.com (vpn use karna) <<==
-Apna Telegram Account login kar btc
-Click on API Development Tools Blah Blah Maa ki chu
-Create a new application, by entering the required details Maa ka bhosda""")
-APP_ID = int(input("Madarchod Enter APP ID here: "))
-API_HASH = input("Gandu ab API HASH daal: ")
+print("""Hello Welcome to NOBITA Telethon Setup""")
+APP_ID = int(input("Please Enter your API ID here: "))
+API_HASH = input("Now Enter your API HASH: ")
 
 with TelegramClient(StringSession(), APP_ID, API_HASH) as client:
     print(client.session.save())
